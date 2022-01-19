@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-saira: font-family: 'Saira', sans-serif;
+    --font-merriweather: font-family: 'Merriweather Sans', sans-serif;
+    --text-color-black: rgb(32, 32, 32);
+    --text-color-red: rgb(255, 0, 0);
+    --text-color-white: rgb(255, 255, 255);
+    --color-background-header: #ebebeb;
+}
