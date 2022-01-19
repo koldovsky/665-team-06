@@ -7,5 +7,31 @@ div.footer{
     text-align: center;
 }
 div.footer__description{
-    align-items: center;
+    margin-top: 30px;
+}
+
+div.footer__description__header{
+    font-family: var(--font-saira);
+    font-size: 24px;
+    font-weight: 400;
+    padding: 20px auto;
+}
+
+div.footer__description__about{
+    box-sizing: content-box;
+    width: 15%;
+    margin: 10px auto 30px;
+    text-align: center;
+    font-family: var(--font-merriweather);
+    font-size: 15px;
+    color: var(--text-color-gray);
+}
+
+div.footer__menu > ul > li >a{
+    text-decoration: none;
+    color: var(--text-color-white);
+}
+
+a:hover{
+    cursor: pointer;
 }

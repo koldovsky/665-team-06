@@ -12,5 +12,6 @@
     --text-color-black: rgb(32, 32, 32);
     --text-color-red: rgb(255, 0, 0);
     --text-color-white: rgb(255, 255, 255);
+    --text-color-gray: #c2c2c2;
     --color-background-header: #ebebeb;
 }
