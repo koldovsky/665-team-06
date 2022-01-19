@@ -1,0 +1,77 @@
+#product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("img/bags/background-products.png");
+}
+
+#product-title {
+    text-align: center;
+    color: white;
+}
+
+#product-top {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#product-top-list {
+    width: 380px;
+    height: 564px;
+    background-color: white;
+}
+
+#product-top-list-pic {
+    width: 380px;
+    height: 380px;
+    align-items: flex-start;
+}
+
+#product-top-list-items {
+    text-decoration: none;
+    color: #000;
+    margin-left: 22%;
+}
+
+#product-prise {
+    color: red;
+    text-align: center;
+}
+
+#product-buy {
+    text-decoration: none;
+    color: white;
+    margin-left: 42%;
+    padding-inline: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#product-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#product-bottom-list {
+    margin-bottom: 50px;
+    width: 340px;
+    height: 530px;
+    background-color: white;
+}
+
+#product-bottom-list-pic {
+    width: 340px;
+    height: 340px;
+    align-items: flex-start;
+}
+
+#product-bottom-list-items {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    margin-left: 22%;
+}
