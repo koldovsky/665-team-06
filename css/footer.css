@@ -27,11 +27,54 @@ div.footer__description__about{
     color: var(--text-color-gray);
 }
 
+div.footer__menu > ul > li{
+    padding: 5px;
+}
+
+div.footer__menu > ul > li.footer__gap{
+    padding-bottom: 25px;
+}
+
 div.footer__menu > ul > li >a{
     text-decoration: none;
     color: var(--text-color-white);
+    font-size: 15px;
+    font-weight: 400;
 }
 
 a:hover{
     cursor: pointer;
+}
+
+div.footer__follow-us{
+    padding: 25px;
+}
+
+div.footer__follow-us__header > p > a{
+    text-decoration: none;
+    font-family: var(--font-saira);
+    color: var(--text-color-white);
+    font-size: 26px;
+}
+div.footer__follow-us__social{
+    box-sizing: content-box;
+    padding: 20px;
+}
+
+div.footer__follow-us__social > a > img{
+    width: 32px;
+    height: 32px;
+}
+
+div.footer__follow-us__social > a:hover{
+    background-color: var(--text-color-red);
+}
+
+div.footer__buttom{
+    font-family: var(--font-merriweather);
+    font-size: 12px;
+}
+
+div.footer__buttom__copyright{
+    padding: 15px;
 }
