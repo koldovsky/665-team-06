@@ -2,7 +2,7 @@ div.header{
     display: flex;
     flex-direction: column; 
 }
-div.header__header-top__title{
+div.header__title{
     justify-content: flex-start;
     font-size: 34px;
     font-weight: 400;
