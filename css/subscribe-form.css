@@ -19,7 +19,7 @@ p.submit-form___description__about{
 div.submit-form__subscribe{
     margin: 60px auto 80px;
 }
-div.submit-form__subscribe__input > input, div.submit-form__subscribe__button > a > input{
+div.submit-form__subscribe__input > input, div.submit-form__subscribe__button > input{
     box-sizing: content-box;
     width: 80vw;
     border: none;
@@ -40,7 +40,7 @@ div.submit-form__subscribe__input{
     font-size: 14px;
     margin-bottom: 10px;
 }
-div.submit-form__subscribe__button > a > input {
+div.submit-form__subscribe__button > input {
     text-align: center;
     background-color: var(--text-color-red);
     border-radius: 20px;
@@ -51,6 +51,6 @@ div.submit-form__subscribe__button > a > input {
     font-weight: 600;
 }
 
-div.submit-form__subscribe__button > a > input:hover{
+div.submit-form__subscribe__button > input:hover{
     cursor: pointer;
 }
