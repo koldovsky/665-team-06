@@ -1,0 +1,16 @@
+.collections_header{
+    font-family: var(--font-saira);
+    color: var(--text-color-black);
+    font-size: 38px;
+    font-stretch: 100%;
+    font-weight: 400;
+    display:flex;
+    justify-content: center;
+}
+.collections_product-box{
+    display: box;
+}
+.button_collections-text{
+    font-family: var(--font-merriweather);
+    text-decoration: none;
+}
