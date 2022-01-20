@@ -14,7 +14,7 @@ div.footer__description__header{
     font-family: var(--font-saira);
     font-size: 24px;
     font-weight: 400;
-    padding: 20px auto;
+    padding: 20px;
 }
 
 div.footer__description__about{
