@@ -21,7 +21,7 @@ p.submit-form___description__about{
 div.submit-form__subscribe{
     margin: 60px auto 80px;
 }
-div.submit-form__subscribe__input > input, div.submit-form__subscribe__button > input{
+div.submit-form__subscribe__input > input, div.submit-form__subscribe__button > a > input{
     width: 80vw;
     border: none;
 }
@@ -33,7 +33,7 @@ div.submit-form__subscribe__input{
     font-size: 14px;
     margin-bottom: 10px;
 }
-div.submit-form__subscribe__button > input {
+div.submit-form__subscribe__button > a > input {
     text-align: center;
     background-color: var(--text-color-red);
     border-radius: 20px;
@@ -41,4 +41,8 @@ div.submit-form__subscribe__button > input {
     font-family: var(--font-merriweather);
     font-size: 14px;
     color: var(--text-color-white);
+}
+
+div.submit-form__subscribe__button > a > input:hover{
+    cursor: pointer;
 }

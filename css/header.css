@@ -5,10 +5,7 @@ div.header{
 div.header__title{
     justify-content: flex-start;
     font-size: 34px;
-    font-weight: 400;
-    letter-spacing: -1px;
     text-decoration: none;
-    width: 30%;
     padding: 20px 24px 50px;
     color: var(--text-color-black);
 }
@@ -34,15 +31,10 @@ div.header__header-bottom__description{
 div.header__header-bottom__description__notebooks{
     font-size: 58px;
     font-weight: 500;
-    box-sizing: content-box;
-    width: 18%;
-    letter-spacing: -1.9px;
     color: var(--text-color-black);
     font-family: var(--font-saira);
 }
 div.header__header-bottom__description__about{
-    box-sizing: content-box;
-    width: 18%;
     font-size: 16px;
     color: var(--text-color-black);
     font-family: var(--font-merriweather);
