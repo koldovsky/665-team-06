@@ -14,6 +14,51 @@ h1 > a{
     text-decoration: none;
     font-family: var(--font-saira);
 }
+
+    div.navigation-burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    padding: 12px;
+    cursor: pointer;
+    z-index: 5;
+  }
+    div.navigation-burger span,
+    div.navigation-burger::before,
+    div.navigation-burger::after {
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--banner-h-color);
+    transition: all 0.5s ease-in-out;
+  }
+    div.navigation-burger span {
+    transform: scale(1);
+  }
+  div.navigation-burger::before,
+  div.navigation-burger::after {
+    content: " ";
+  }
+  div.navigation-burger::before {
+    top: 0;
+  }
+  div.navigation-burger::after {
+    bottom: 0;
+  }
+  div.navigation-burger.active span {
+    transform: scale(0);
+  }
+  div.navigation-burger.active::before {
+    top: 50%;
+    transform: rotate(-45deg);
+  }
+  div.navigation-burger.active::after {
+    bottom: 40%;
+    transform: rotate(45deg);
+  }
+
 div.header__header-navigation{
     display: none;
 }
