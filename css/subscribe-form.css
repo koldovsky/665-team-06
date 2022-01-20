@@ -25,6 +25,13 @@ div.submit-form__subscribe__input > input, div.submit-form__subscribe__button > 
     width: 80vw;
     border: none;
 }
+
+div.submit-form__subscribe__input > input:focus{
+    outline: none;
+    font-size: 16px;
+}
+
+
 div.submit-form__subscribe__input{
     background-color: var(--text-color-white);
     border-radius: 20px;
