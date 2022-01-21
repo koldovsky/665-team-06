@@ -17,7 +17,12 @@
 }
 
 .why-us__content {
-
+    
+}
+@media (min-width:768px) {
+    .why-us__content {
+        display: flex;  
+    }
 }
 .why-us__content-element {
     display: flex;
@@ -25,14 +30,23 @@
     align-items: center;
     border: 1px solid white;
     margin: 5px;
+    padding: 10px;
 
-}
-.why-us__icons {
 }
 .why-us__icons img {
     width: 80px;
 }
+@media (min-width:768px) {
+    .why-us__icons img {
+        width: 100px;  
+    }
+}
 .why-us__content-element h4 {
     font-weight: normal;
     font-size: 30px;
+    text-align: center;
+}
+.why-us__content-element p {
+    text-align: center;
+    color:rgb(216, 207, 207);
 }
