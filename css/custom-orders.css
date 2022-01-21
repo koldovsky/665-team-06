@@ -1,0 +1,25 @@
+.overblock{
+    background-image:url("../../img/custom-orders/stylish-man.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align:left;
+    height: 643.8px;
+    width: 100%;
+}
+.overblock__header-text {
+    color: #212020;
+    vertical-align: baseline;
+    font-family: var(--font-saira);
+    font-size: 38px;
+    line-height: 41.8px;
+    font-weight: 200;
+    letter-spacing: -1.14px;
+    position: relative;
+}
+
+.overblock__main-text{
+    font-size: 15px;
+    color: var(--text-color-light-gray);
+    font-family:var(--font-merriweather);
+}
