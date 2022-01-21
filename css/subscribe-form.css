@@ -28,9 +28,7 @@ div.submit-form__subscribe__input > input, div.submit-form__subscribe__button > 
 
 div.submit-form__subscribe__input > input:focus{
     outline: none;
-    
 }
-
 
 div.submit-form__subscribe__input{
     background-color: var(--text-color-white);
