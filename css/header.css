@@ -110,7 +110,7 @@ a:hover{
   div.header{
     display: flex;
     flex-direction: column;
-    max-width: 1120px; 
+    max-width: 1150px; 
 }
   div.header__title{
     text-align: center;

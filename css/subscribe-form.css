@@ -52,3 +52,24 @@ div.submit-form__subscribe__button > input {
 div.submit-form__subscribe__button > input:hover{
     cursor: pointer;
 }
+
+@media (min-width: 770px){
+    section.submit-form{
+        max-width: 1150px;
+        display: flex;
+        flex-direction: row;
+        padding-right: 50px;
+    }
+    div.submit-form__subscribe{
+        justify-content: center;
+        align-items: center;
+    }
+    div.submit-form___description{
+        margin: 80px;
+        width: 65vw;
+    }
+    div.submit-form__subscribe__input > input, div.submit-form__subscribe__button > input{
+        width: 22vw;
+    }
+}
+   
