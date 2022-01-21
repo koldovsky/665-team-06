@@ -78,3 +78,32 @@ div.footer__buttom{
 div.footer__buttom__copyright{
     padding: 15px;
 }
+
+@media (min-width: 800px){
+   div.footer{
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto minmax(500px, 750px) auto;
+        grid-gap: 10px 15px;
+        grid-template-rows: 80% 20%;
+    }   
+    div.footer > div.footer__description{
+        grid-column: 1 / 2;
+        margin: 0;
+    }
+    div.footer > div.footer__menu{
+        grid-column: 2 / 3;
+    }
+    div.footer > div.footer__follow-us{
+        grid-column: 3 / 4;
+    }
+    div.footer > div.footer__buttom{
+        grid-row: 2;
+    }
+    div.footer__description__about{
+        box-sizing: content-box;
+        width: 80%;
+        margin: 0 20px;
+        text-align: left;
+    }
+}
