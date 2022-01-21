@@ -1,7 +1,5 @@
-*{
-    box-sizing: border-box;
-}
 .advantages {
+    box-sizing: border-box;
     font-family: var(--font-saira);
     margin: auto;
     max-width:1200px;
