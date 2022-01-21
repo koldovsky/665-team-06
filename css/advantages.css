@@ -5,23 +5,18 @@
     font-family: var(--font-saira);
     margin: auto;
     max-width:1200px;
-
 }
 @media (min-width:768px) {
     .advantages {
-        display: flex;
-        
+        display: flex;  
     }
 }
-
 .advantages__img-backpack {
     display: block;
-    
 }
 @media (min-width:768px) {
     .advantages__img-backpack {
         flex: 1;
-        
     }
 }
 .advantages__img-backpack img{
@@ -30,8 +25,6 @@
 .advantages__text-area {
     word-wrap: break-word;
     margin: 5px;
-    
-
 }
 @media (min-width:768px) {
     .advantages__text-area {
@@ -44,7 +37,6 @@
         padding-top: 70px;
     }
 }
-
 h3 {
     font-weight: normal;
     font-size: 35px;
@@ -55,7 +47,6 @@ h3 {
         font-size: 40px;
     }
 }
-
 p {
     font-size: 20px;
     color: rgb(87, 85, 85);
