@@ -16,9 +16,6 @@
     font-size: 45px;
 }
 
-.why-us__content {
-    
-}
 @media (min-width:768px) {
     .why-us__content {
         display: flex;  
