@@ -28,6 +28,9 @@ div.footer__description__about p{
     color: var(--text-color-white);
 }
 
+div.footer__menu > ul{
+    list-style-type: none;
+}
 
 li{
     padding: 5px;
