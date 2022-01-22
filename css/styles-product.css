@@ -1,77 +1,39 @@
-#product {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-image: url("img/bags/background-products.png");
-}
-
-#product-title {
+.card-title{
     text-align: center;
-    color: white;
+   }
+.card-text{
+ font-weight: 700;
+ margin-top: 40px;
+ text-align: center;
+ color: rgb(255, 0, 0);
 }
-
-#product-top {
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.card-link{
+ 
+ padding-inline:30px;
+ padding-top:5px;
+ padding-bottom:5px;
+ border-radius: 20px;
+ text-decoration: none;
+ background-color: red;
+ color: white;
+ 
 }
-
-#product-top-list {
-    width: 380px;
-    height: 564px;
-    background-color: white;
+.card-body{
+ margin-bottom: 20px;
 }
-
-#product-top-list-pic {
-    width: 380px;
-    height: 380px;
-    align-items: flex-start;
+.text-center{
+ margin-bottom: 30px;
 }
-
-#product-top-list-items {
-    text-decoration: none;
-    color: #000;
-    margin-left: 22%;
-}
-
-#product-prise {
-    color: red;
-    text-align: center;
-}
-
-#product-buy {
-    text-decoration: none;
-    color: white;
-    margin-left: 42%;
-    padding-inline: 5%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    background-color: red;
-    border-radius: 10px;
-}
-
-#product-bottom {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-#product-bottom-list {
-    margin-bottom: 50px;
-    width: 340px;
-    height: 530px;
-    background-color: white;
-}
-
-#product-bottom-list-pic {
-    width: 340px;
-    height: 340px;
-    align-items: flex-start;
-}
-
-#product-bottom-list-items {
-    text-decoration: none;
-    color: rgb(68, 68, 68);
-    margin-left: 22%;
-}
+.product-title {
+         position: relative;
+         padding: 5vw;
+         text-align: center;
+         color: white;
+         font-size: 26px;
+         font-weight: 600;
+     }
+     .product {
+         background-image: url("../img/bags/background-products.png");
+         font-family: 'Saira';
+         padding: 20px;
+     }
