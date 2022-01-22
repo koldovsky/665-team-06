@@ -15,6 +15,7 @@ p.submit-form___description__about{
     font-family: var(--font-merriweather);
     font-size: 16px;
     padding: 20px;
+    color: var(--text-color-white);
 }
 div.submit-form__subscribe{
     margin: 60px auto 80px;
