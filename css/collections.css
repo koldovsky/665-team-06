@@ -6,34 +6,20 @@
     font-weight: 400;
     display:flex;
     justify-content: center;
-    position: relative;
-    padding-top: 70px;
-    padding-bottom: 40px;
+
 }
-.collections_product-box{
-    display: grid;
-    grid-gap: 10px 20px;
-}
-.collections_img{
-    height: 500px;
+.collections_img {
+    display: block;
     width: 100%;
-    object-fit: cover;
-    margin: 30px;
-
-
-}
-.collections_name{
-    display: flex;
-    justify-content: center;
-    align-items:end;
-    font-family: var(--font-saira);
-    font-size: 26px;
-    color: var(--text-color-white);
-    background-color: var(--text-color-red);
+    height: 100%;
+    max-width: 279px;
+    max-height: 317px;
     
-   
-
 }
+.collections_product{
+   margin:auto
+}
+
 .button_collections-text{
     font-family: var(--font-merriweather);
     font-size: 20px;
@@ -42,6 +28,16 @@
     padding-top: 40px;
     display: flex;
     justify-content: center;
-   
-
+}
+@media (min-width: 768px){
+    .collections_product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 992px){
+    .collections_product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    }
 }
