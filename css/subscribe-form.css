@@ -1,76 +1,77 @@
-section.submit-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.2), rgba(32, 32, 32, 0.8)), url(../img/footer/subscribe-form-background.png) fixed;
-    background-position: 55% 35%;
-    color: var(--text-color-white);
+section.submit-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.2), rgba(32, 32, 32, 0.8)),
+    url(../img/footer/subscribe-form-background.png) fixed;
+  background-position: 55% 35%;
+  color: var(--text-color-white);
 }
-h2.submit-form___description__header{
-    font-family: var(--font-saira);
-    font-size: 38px;
-    padding: 20px;
+h2.submit-form___description__header {
+  font-family: var(--font-saira);
+  font-size: 38px;
+  padding: 20px;
 }
-p.submit-form___description__about{
-    font-family: var(--font-merriweather);
-    font-size: 16px;
-    padding: 20px;
-    color: var(--text-color-white);
+p.submit-form___description__about {
+  font-family: var(--font-merriweather);
+  font-size: 16px;
+  padding: 20px;
+  color: var(--text-color-white);
 }
-div.submit-form__subscribe{
-    margin: 60px auto 80px;
+div.submit-form__subscribe {
+  margin: 60px auto 80px;
 }
-div.submit-form__subscribe__input > input, div.submit-form__subscribe__button > input{
-    box-sizing: content-box;
-    width: 80vw;
-    border: none;
-    font-size: 16px;
-}
-
-div.submit-form__subscribe__input > input:focus{
-    outline: none;
+div.submit-form__subscribe__input > input,
+div.submit-form__subscribe__button > input {
+  box-sizing: content-box;
+  width: 80vw;
+  border: none;
+  font-size: 16px;
 }
 
-div.submit-form__subscribe__input{
-    background-color: var(--text-color-white);
-    border-radius: 20px;
-    padding: 10px;
-    font-family: var(--font-merriweather);
-    font-size: 14px;
-    margin-bottom: 10px;
+div.submit-form__subscribe__input > input:focus {
+  outline: none;
+}
+
+div.submit-form__subscribe__input {
+  background-color: var(--text-color-white);
+  border-radius: 20px;
+  padding: 10px;
+  font-family: var(--font-merriweather);
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 div.submit-form__subscribe__button > input {
-    text-align: center;
-    background-color: var(--text-color-red);
-    border-radius: 20px;
-    padding: 10px;
-    font-family: var(--font-merriweather);
-    font-size: 14px;
-    color: var(--text-color-white);
-    font-weight: 600;
+  text-align: center;
+  background-color: var(--text-color-red);
+  border-radius: 20px;
+  padding: 10px;
+  font-family: var(--font-merriweather);
+  font-size: 14px;
+  color: var(--text-color-white);
+  font-weight: 600;
 }
 
-div.submit-form__subscribe__button > input:hover{
-    cursor: pointer;
+div.submit-form__subscribe__button > input:hover {
+  cursor: pointer;
 }
 
-@media (min-width: 770px){
-    section.submit-form{
-        max-width: 1150px;
-        display: flex;
-        flex-direction: row;
-        padding-right: 50px;
-    }
-    div.submit-form__subscribe{
-        justify-content: center;
-        align-items: center;
-    }
-    div.submit-form___description{
-        margin: 80px;
-        width: 65vw;
-    }
-    div.submit-form__subscribe__input > input, div.submit-form__subscribe__button > input{
-        width: 22vw;
-    }
+@media (min-width: 770px) {
+  section.submit-form {
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+  }
+  div.submit-form__subscribe {
+    justify-content: center;
+    align-items: center;
+  }
+  div.submit-form___description {
+    margin: 80px;
+    width: 65vw;
+  }
+  div.submit-form__subscribe__input > input,
+  div.submit-form__subscribe__button > input {
+    width: 22vw;
+  }
 }
-   

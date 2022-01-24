@@ -1,7 +1,8 @@
 div.header{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    min-width: 320px; 
+    min-width: 320px;
 }
 div.header__title{
     justify-content: flex-start;
@@ -62,7 +63,6 @@ a:hover{
     div.header{
     display: flex;
     flex-direction: column;
-    max-width: 1150px; 
   }
 
   div.header__title{
