@@ -8,181 +8,203 @@
     <title>Craft Handmade Shop Leather Working</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link
         href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Saira:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
         rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">   
     <link rel="stylesheet" href="css/index.css">
-    
+
     <link rel="stylesheet" href="custom-orders.css">
 
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <!-- Yaroslav Y start -->
-            <div class="header">
-                <div class="header__title">
-                    <h1><a href="#footer">Leather Crafties</a></h1>
-                </div>
-                <div class="navigation-burger"><span></span></div>
-                <div class="header__header-navigation">
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="" accesskey="7">Catalog</a>
-                                    <select>
-                                        <option>Notebooks</option>
-                                    </select>
-                                </li>
-                                <li><a href="" accesskey="2">Gift packs</a></li>
-                                <li><a href="" accesskey="3">Custom Orders</a></li>
-                                <li><a href="" accesskey="4">Our story</a></li>
-                                <li><a href="" accesskey="5">Blog</a></li>
-                                <li><a href="" accesskey="6">Contacts</a></li>
+    <header>
+        <!-- Yaroslav Y start -->
+        <div class="header">
+            <div class="header__title">
+                <h1><a href="#footer">Leather Crafties</a></h1>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light" id="navbar-screen">
+                <button class=" navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-center mb-3">
+                    <ul class="navbar-nav mr-auto fw-bold fs-5">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">
+                                Catalog
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#custom-orders">Notebooks</a></li>
+                                <li><a class="dropdown-item" href="#">Backpaks</a></li>
                             </ul>
-                        </nav>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Gift packs</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Custom orders</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Our story</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="header__header-bottom">
-                    <div class="header__header-bottom__image">
-                        <img src="img/header/notebook-header.png" alt="notebook header">
+            </nav>
+            <div class="header__header-bottom">
+                <div class="header__header-bottom__image">
+                    <img src="img/header/notebook-header.png" alt="notebook header">
+                </div>
+                <div class="header__header-bottom__description">
+                    <div class="header__header-bottom__description__notebooks">
+                        <p>Notebook Bags Made to Last a Lifetime
+                        </p>
                     </div>
-                    <div class="header__header-bottom__description">
-                        <div class="header__header-bottom__description__notebooks">
-                            <p>Notebook Bags Made to Last a Lifetime
-                            </p>
-                        </div>
-                        <div class="header__header-bottom__description__about">
-                            <p>
-                                Each of our products is made by hand from the finest leather
-                            </p>
-                        </div>
-                        <div class="header__header-bottom__description__button">
-                            <a href="#" accesskey="1" target="_blank">Choose
-                                product</a>
-                        </div>
+                    <div class="header__header-bottom__description__about">
+                        <p>
+                            Each of our products is made by hand from the finest leather
+                        </p>
+                    </div>
+                    <div class="header__header-bottom__description__button">
+                        <a href="#" accesskey="1" target="_blank">Choose
+                            product</a>
                     </div>
                 </div>
             </div>
-            <!-- Yaroslav Y end -->
-        </header>
-        <!-- AlexandrVoyat start -->
-        <div class="product">
-            <div class="product-title">
-                <p>Products</p>
-            </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <div class="card">
-                    <img src="img/bags/Handmade-Leather-Notebook.jpg" class="card-img-top" alt="Handmade Leather Notebook">
+        </div>
+        <!-- Yaroslav Y end -->
+    </header>
+    <!-- AlexandrVoyat start -->
+    <div class="product">
+        <div class="product-title">
+            <p>Products</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="img/bags/Handmade-Leather-Notebook.jpg" class="card-img-top"
+                        alt="Handmade Leather Notebook">
                     <div class="card-body">
-                      <h5 class="card-title">Handmade Leather Notebook</h5>
-                      <div>
-                      <p class="card-text">$89,00</p>
-                      </div>
+                        <h5 class="card-title">Handmade Leather Notebook</h5>
+                        <div>
+                            <p class="card-text">$89,00</p>
+                        </div>
                     </div>
                     <div class="text-center">
                         <a href="#" class="card-link">Buy</a>
-                     </div>
-                  </div>
+                    </div>
                 </div>
-                <div class="col">
-                    <div class="card">
-                      <img src="img/bags/Brown-Leather-Wallet.jpg" class="card-img-top" alt="Brown Leather Wallet">
-                      <div class="card-body">
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/bags/Brown-Leather-Wallet.jpg" class="card-img-top" alt="Brown Leather Wallet">
+                    <div class="card-body">
                         <h5 class="card-title">Brown Leather Wallet</h5>
                         <div>
-                        <p class="card-text">$76,00</p>
+                            <p class="card-text">$76,00</p>
                         </div>
-                      </div>
-                      <div class="text-center">
-                          <a href="#" class="card-link">Buy</a>
-                       </div>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div class="card">
-                      <img src="img/bags/Brown-Business-Folder.jpg" class="card-img-top" alt="Brown Business Folder">
-                      <div class="card-body">
+                    <div class="text-center">
+                        <a href="#" class="card-link">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/bags/Brown-Business-Folder.jpg" class="card-img-top" alt="Brown Business Folder">
+                    <div class="card-body">
                         <h5 class="card-title">Brown Business Folder</h5>
                         <div>
-                        <p class="card-text">$94,00</p>
+                            <p class="card-text">$94,00</p>
                         </div>
-                      </div>
-                      <div class="text-center">
-                          <a href="#" class="card-link">Buy</a>
-                       </div>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div class="card">
-                      <img src="img/bags/Big-Brown-Leather-Bag.jpg" class="card-img-top" alt="Big Brown Leather Bag">
-                      <div class="card-body">
+                    <div class="text-center">
+                        <a href="#" class="card-link">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/bags/Big-Brown-Leather-Bag.jpg" class="card-img-top" alt="Big Brown Leather Bag">
+                    <div class="card-body">
                         <h5 class="card-title">Big Brown Leather Bag</h5>
                         <div>
-                        <p class="card-text">$124,00</p>
+                            <p class="card-text">$124,00</p>
                         </div>
-                      </div>
-                      <div class="text-center">
-                          <a href="#" class="card-link">Buy</a>
-                       </div>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div class="card">
-                      <img src="img/bags/Stylish-Brown-Briefcase.jpg" class="card-img-top" alt="Stylish Brown Briefcase">
-                      <div class="card-body">
+                    <div class="text-center">
+                        <a href="#" class="card-link">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/bags/Stylish-Brown-Briefcase.jpg" class="card-img-top" alt="Stylish Brown Briefcase">
+                    <div class="card-body">
                         <h5 class="card-title">Stylish Brown Briefcase</h5>
                         <div>
-                        <p class="card-text">$200,00</p>
+                            <p class="card-text">$200,00</p>
                         </div>
-                      </div>
-                      <div class="text-center">
-                          <a href="#" class="card-link">Buy</a>
-                       </div>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div class="card">
-                      <img src="img/bags/Three-Color-Leather-Purse.jpg" class="card-img-top" alt="Three-Color Leather Purse">
-                      <div class="card-body">
+                    <div class="text-center">
+                        <a href="#" class="card-link">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/bags/Three-Color-Leather-Purse.jpg" class="card-img-top"
+                        alt="Three-Color Leather Purse">
+                    <div class="card-body">
                         <h5 class="card-title">Three-Color Leather Purse</h5>
                         <div>
-                        <p class="card-text">$90,00</p>
+                            <p class="card-text">$90,00</p>
                         </div>
-                      </div>
-                      <div class="text-center">
-                          <a href="#" class="card-link">Buy</a>
-                       </div>
                     </div>
-                  </div>
-              </div>
+                    <div class="text-center">
+                        <a href="#" class="card-link">Buy</a>
+                    </div>
+                </div>
             </div>
-        <!-- Alexandr bloc end -->
-
-        <!-- bobyliak 3 start -->
-
-        <section class="collection">
-            <h2 class="collections_header">Collections</h2>
-            <div class="collections_product">
-                <figure class="collections_product-box">
-                    <img class="collections_img" src="img/collection/holders-collections.webp" alt="holders collections">
-                    <figcaption class="collections_name">Holders</figcaption>
-                </figure>
-                <figure class="collections_product-box">
-                    <img  class="collections_img" src="img/collection/wallets-collectins.webp" alt="walets collection">
-                    <figcaption class="collections_name">Wallets</figcaption>
-                </figure>
-                <figure class="collections_product-box">
-                    <img  class="collections_img" src="img/collection/cases-collections.webp" alt="cases collections">
-                    <figcaption class="collections_name">Cases</figcaption>
-                </figure>
-            </div>
-            <div class="button_collections">
-                <a href="#" class="button_collections-text">Learn more</a>
-        </section>
+        </div>
     </div>
+    <!-- Alexandr bloc end -->
+
+    <!-- bobyliak 3 start -->
+
+    <section class="collection">
+        <h2 class="collections_header">Collections</h2>
+        <div class="collections_product">
+            <figure class="collections_product-box">
+                <img class="collections_img" src="img/collection/holders-collections.webp" alt="holders collections">
+                <figcaption class="collections_name">Holders</figcaption>
+
+            </figure>
+            <figure class="collections_product-box">
+                <img class="collections_img" src="img/collection/wallets-collectins.webp" alt="walets collection">
+                <figcaption class="collections_name">Wallets</figcaption>
+            </figure>
+            <figure class="collections_product-box">
+                <img class="collections_img" src="img/collection/cases-collections.webp" alt="cases collections">
+                <figcaption class="collections_name">Cases</figcaption>
+            </figure>
+        </div>
+        <div class="button_collections">
+            <a href="#" class="button_collections-text">Learn more</a>
+        </div>
+    </section>
+
+
     <section class="slider_packs">
         <h2 class="slider_packs-header">Gift Packs</h2>
         <div class="slider_packs-product">
@@ -212,7 +234,6 @@
             </div>
         </div>
     </section>
-
     <!-- bobyliak 3 end -->
 
     <!-- khromenko 4 block start -->
@@ -259,9 +280,12 @@
             <p>Since our foundation, we've been crafting practical, modern, and stylish leather accessories at
                 exceptional prices. Our mission is to make each of our customers happy by delivering quality leather
                 goods that match their tastes and needs to the last stitch.</p>
-            <p>Here at Leather Crafties, we design and manufacture our products with the expectation that they will last
-                for years and improve with age, like a good wine. Our experienced craftsmen are true artisans who love
-                to work on custom orders. No matter how complex and challenging it is, they are ready to meet and then
+            <p>Here at Leather Crafties, we design and manufacture our products with the expectation that they will
+                last
+                for years and improve with age, like a good wine. Our experienced craftsmen are true artisans who
+                love
+                to work on custom orders. No matter how complex and challenging it is, they are ready to meet and
+                then
                 exceed your expectations!</p>
         </div>
     </div>
@@ -275,7 +299,8 @@
                     <img src="img/icons/icon-irish-waxed-linen.png" alt="icon-irish-waxed-linen">
                 </div>
                 <h4>Irish Waxed Linen</h4>
-                <p>We've sourced the finest quality European linen and other contemporary materials for our products.
+                <p>We've sourced the finest quality European linen and other contemporary materials for our
+                    products.
                 </p>
             </div>
             <div class="why-us__content-element">
@@ -307,6 +332,7 @@
     <!--Marta block end -->
 
     <!--Jarko start -->
+
     <div class="handmade_means" id="handmade_means">
         <div class="handmade__header-text">
             <h3>What Handmade Means to Us</h3>
@@ -334,21 +360,25 @@
         </div>
     </div>
     <!-- Jarko end -->
+
     <!-- Yaroslav Y start -->
     <section class="submit-form">
         <div class="submit-form___description">
             <h2 class="submit-form___description__header">Subscribe to get the latest news and updates
             </h2>
-            <p class="submit-form___description__about">Sign up for our newsletter and receive the latest news on new
+            <p class="submit-form___description__about">Sign up for our newsletter and receive the latest news on
+                new
                 arrivals and special offers right to your inbox!
             </p>
         </div>
         <div class="submit-form__subscribe">
             <form method="post">
                 <label for="customer-email"></label>
-                <div class="submit-form__subscribe__input"><input type="email" placeholder="Email" id="customer-email" required></div>
+                <div class="submit-form__subscribe__input"><input type="email" placeholder="Email" id="customer-email"
+                        required></div>
                 <br>
-                <div class="submit-form__subscribe__button"><input type="submit" value="Subscribe" id="submit-email"></div>
+                <div class="submit-form__subscribe__button"><input type="submit" value="Subscribe" id="submit-email">
+                </div>
             </form>
         </div>
     </section>
@@ -363,45 +393,49 @@
                         products.</p>
                 </div>
             </div>
-                <div class="footer__menu">
-                    <ul>
-                        <div class="footer__menu__left">
-                            <li><a href="#catalog" accesskey="7">Catalog</a></li>
-                            <li><a href="">Notebooks</a></li>
-                            <li class="footer__gap"><a href="#blog" accesskey="5">Blog</a></li>
-                        </div>
-                        <div class="footer__menu__center">
-                            <li><a href="gift-packs" accesskey="2">Gifts</a></li>
-                            <li><a href="">Our tean</a></li>
-                            <li class="footer__gap"><a href="">Contacts</a></li>
-                        </div>
-                        <div class="footer__menu__right">
-                            <li><a href="">Our story</a></li>
-                            <li><a href="#custom-orders" accesskey="3">Custom orders</a></li>
-                        </div>
-                    </ul>
-                </div>
-                <div class="footer__follow-us">
-                    <div class="footer__follow-us__header"><p><a href="">Follow us</a></p></div>
-                    <div class="footer__follow-us__social">
-                        <a href="https://www.facebook.com/"><img src="img/header/facebook-logo.png" alt="facebook"></a>
-                        <a href="https://www.instagram.com/"><img src="img/header/instagram-logo.png"
-                                alt="instagram"></a>
-                        <a href="https://www.youtube.com/"><img src="img/header/youtube_logo.png" alt="youtube"></a>
+            <div class="footer__menu">
+                <ul>
+                    <div class="footer__menu__left">
+                        <li><a href="#catalog" accesskey="7">Catalog</a></li>
+                        <li><a href="">Notebooks</a></li>
+                        <li class="footer__gap"><a href="#blog" accesskey="5">Blog</a></li>
                     </div>
-                </div>
-                <div class="footer__buttom">
-                    <div class="footer__buttom__copyright">
-                        <p>© Created by</p>
+                    <div class="footer__menu__center">
+                        <li><a href="gift-packs" accesskey="2">Gifts</a></li>
+                        <li><a href="">Our tean</a></li>
+                        <li class="footer__gap"><a href="">Contacts</a></li>
                     </div>
-                    <div class="footer__buttom__text">
-                        <p>All rights Reserved</p>
+                    <div class="footer__menu__right">
+                        <li><a href="">Our story</a></li>
+                        <li><a href="#custom-orders" accesskey="3">Custom orders</a></li>
                     </div>
+                </ul>
+            </div>
+            <div class="footer__follow-us">
+                <div class="footer__follow-us__header">
+                    <p><a href="">Follow us</a></p>
                 </div>
+                <div class="footer__follow-us__social">
+                    <a href="https://www.facebook.com/"><img src="img/header/facebook-logo.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/"><img src="img/header/instagram-logo.png" alt="instagram"></a>
+                    <a href="https://www.youtube.com/"><img src="img/header/youtube_logo.png" alt="youtube"></a>
+                </div>
+            </div>
+            <div class="footer__buttom">
+                <div class="footer__buttom__copyright">
+                    <p>© Created by</p>
+                </div>
+                <div class="footer__buttom__text">
+                    <p>All rights Reserved</p>
+                </div>
+            </div>
         </div>
     </footer>
     <!--Yaroslav Y end -->
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
+
 
 </html>

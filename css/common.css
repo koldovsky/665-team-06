@@ -1,19 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family');
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family");
 
-*{
-    margin: 0;
-    padding: 0;
-   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1400px;
+  overflow-x: hidden;
 }
 
-:root{
-    --font-saira: 'Saira', sans-serif;
-    --font-merriweather: 'Merriweather Sans', sans-serif;
-    --text-color-black: rgb(32, 32, 32);
-    --text-color-red: rgb(255, 0, 0);
-    --text-color-white: rgb(255, 255, 255);
-    --text-color-gray: #c2c2c2;
-    --color-background-header: #ebebeb;
-    --text-color-light-gray: #595452;
+:root {
+  --font-saira: "Saira", sans-serif;
+  --font-merriweather: "Merriweather Sans", sans-serif;
+  --text-color-black: rgb(32, 32, 32);
+  --text-color-red: rgb(224, 65, 65);
+  --text-color-white: rgb(255, 255, 255);
+  --text-color-gray: #c2c2c2;
+  --color-background-header: #ebebeb;
+  --text-color-light-gray: #595452;
 }

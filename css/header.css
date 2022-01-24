@@ -1,7 +1,8 @@
 div.header{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    min-width: 320px; 
+    min-width: 320px;
 }
 div.header__title{
     justify-content: flex-start;
@@ -10,14 +11,11 @@ div.header__title{
     padding: 20px 24px 50px;
     color: var(--text-color-black);
 }
+
 h1 > a{
     color: var(--text-color-black);
     text-decoration: none;
     font-family: var(--font-saira);
-}
-
-div.header__header-navigation{
-   display: none;
 }
 div.header__header-bottom__image > img{
     margin-bottom: 0;
@@ -65,8 +63,8 @@ a:hover{
     div.header{
     display: flex;
     flex-direction: column;
-    max-width: 1150px; 
   }
+
   div.header__title{
     text-align: center;
   }
