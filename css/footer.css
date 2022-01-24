@@ -30,6 +30,7 @@ div.footer__description__about p {
 
 div.footer__menu > ul {
   list-style-type: none;
+  margin-left: -2rem;
 }
 
 li {
@@ -70,12 +71,14 @@ div.footer__follow-us__social {
 }
 
 div.footer__follow-us__social > a > img {
-  width: 32px;
-  height: 32px;
+  width: 3vw;
 }
 
 div.footer__follow-us__social > a:hover {
   background-color: var(--text-color-red);
+  transform: scale(120%);
+  padding: 2px;
+  margin: 5px;
 }
 
 div.footer__buttom__copyright {
@@ -92,7 +95,7 @@ div.footer__buttom__text p {
 @media (min-width: 800px) {
   div.footer {
     display: grid;
-    grid-template-columns: repeat(2, 25% 55% 20%);
+    grid-template-columns: repeat(2, 25% 50% 25%);
     padding-top: 60px;
   }
   div.footer__description {
