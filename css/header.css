@@ -17,7 +17,7 @@ h1 > a{
     text-decoration: none;
     font-family: var(--font-saira);
 }
-div.header__header-bottom__image > img{
+div.header__header-bottom__image__slider > img{
     margin-bottom: 0;
     width: 100%;
 }
@@ -98,7 +98,7 @@ a:hover{
     width: 100%;  
   }
 
-  div.header__header-bottom__image{
+  div.header__header-bottom__image__slider{
     object-fit: cover;
   }
 
