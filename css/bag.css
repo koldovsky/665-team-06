@@ -26,12 +26,12 @@
          position: relative;
          padding: 40px;
          text-align: center;
-         color: #fff;
-            font-size: 50px;
-         font-weight: 500;
+         color: white;
+         font-size: 50px;
+         font-weight: 400;
      }
      .product {
-         background-image: url("../img/bags/background-products.png");
+         background-image: url('../img/bags/background-products.png');
          font-family: 'Saira';
          padding-right: 80px;
          padding-left: 80px;
@@ -42,3 +42,8 @@
      .code {
 color: red;
 }
+
+.clock {
+ color: orangered;
+}
+
