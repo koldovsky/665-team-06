@@ -18,4 +18,7 @@
   --text-color-gray: #c2c2c2;
   --color-background-header: #ebebeb;
   --text-color-light-gray: #595452;
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+  --text-colr-blue: rgb(0, 0, 255);
 }
