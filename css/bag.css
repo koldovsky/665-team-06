@@ -18,22 +18,27 @@
  color: white;
  
 }
-.card-body{
- margin-bottom: 20px;
-}
+
 .text-center{
  margin-bottom: 30px;
 }
 .product-title {
          position: relative;
-         padding: 5vw;
+         padding: 40px;
          text-align: center;
-         color: white;
-         font-size: 26px;
-         font-weight: 600;
+         color: #fff;
+            font-size: 50px;
+         font-weight: 500;
      }
      .product {
          background-image: url("../img/bags/background-products.png");
          font-family: 'Saira';
-         padding: 20px;
+         padding-right: 80px;
+         padding-left: 80px;
+         padding-top: 50px;
+         padding-bottom: 40px;
      }
+
+     .code {
+color: red;
+}
