@@ -6,6 +6,16 @@
     margin: 0 auto;
   
 }
+.why-us__carousel-back  {
+    width: 55px;
+    height: 45px;
+    margin-left: 15px;
+}
+.why-us__carousel-forward {
+    width: 55px;
+    height: 45px;
+    margin-right: 15px;
+}
 
 @media (min-width: 640px) {
     .why-us__carousel {
@@ -22,13 +32,14 @@
 }
 .why-us {
     box-sizing: border-box;
-    background-image: url(/img/background/background-products.png);
+    background-image: url('../img/bags/background-products.png');
     background-size: cover;
     background-position: center;
     font-family: var(--font-saira);
     color: white;
     padding: 5px;
 }
+
 .why-us__title {
     padding: 15px;
     display: flex;
