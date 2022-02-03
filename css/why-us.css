@@ -32,7 +32,7 @@
 }
 .why-us {
     box-sizing: border-box;
-    background-image: url(img/background/background-products.png);
+    background-image: url('../img/bags/background-products.png');
     background-size: cover;
     background-position: center;
     font-family: var(--font-saira);
