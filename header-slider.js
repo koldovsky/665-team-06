@@ -22,15 +22,17 @@
             <img src="img/gift_packs/summer_pack.webp" alt="summer_pack_foto">
         </div>`
     ];
+
     let currenSlideIdx = 0;
     function showCurrenSlide() {
         const slideContainer = document.querySelector(`.header__header-bottom__image__slider__container`);
         slideContainer.innerHTML = slides[currenSlideIdx];
     }
     function showNextSlide() {
-        currenSlideIdx = currenSlideIdx + 1 >= currenSlideIdx.length ? 0 : currenSlideIdx + 1;
+        currenSlideIdx = currenSlideIdx + 1 >= slides.length ? 0 : currenSlideIdx + 1;
         showCurrenSlide();
     }
     showCurrenSlide();
-    setInterval(showNextSlide, 4000);
+    setInterval(showNextSlide, 2000);
+
 })();
