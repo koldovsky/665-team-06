@@ -1,0 +1,9 @@
+.gift_packs-header{
+    font-size: 38px;
+    text-align: center;
+    font-family: var(--font-saira);
+}
+.gift_packs-carosel{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
