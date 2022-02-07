@@ -1,0 +1,34 @@
+[
+   {
+      "title":"notebook header",
+      "imgUrl":"img/header/notebook-header.png"
+   },
+   {
+      "title":"open bag",
+      "imgUrl":"img/bloc_handmade/open_bag.webp"
+   },
+   {
+      "title":"urban pack",
+      "imgUrl":"img/gift_packs/urban_pack.webp"
+   },
+   {
+      "title":"wallets collection",
+      "imgUrl":"img/collection/wallets-collectins.webp"
+   },
+   {
+      "title":"vintage pack",
+      "imgUrl":"img/gift_packs/vintage_pack.webp"
+   },
+   {
+      "title":"cases collection",
+      "imgUrl":"img/collection/cases-collections.webp"
+   },
+   {
+      "title":"summer pack photo",
+      "imgUrl":"img/gift_packs/summer_pack.webp"
+   },
+   {
+      "title":"holders collection",
+      "imgUrl":"img/collection/holders-collections.webp"
+   }
+]
