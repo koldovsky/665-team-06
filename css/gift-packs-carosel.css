@@ -7,3 +7,10 @@
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
 }
+.img-pack{
+    display: block;
+    width: 242px;
+    height: 212px;
+
+
+}

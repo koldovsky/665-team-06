@@ -4,7 +4,7 @@
             <img src="img/header/notebook-header.png" alt="notebook header">
         </div>`,
         `<div class="header__header-bottom__image__slider">
-            <img src="img/bloc_handmade/open_bag.webp" alt="open bag">
+            <img src="img/bloc_handmade/open_bag.png" alt="open bag">
         </div>`,
         `<div class="header__header-bottom__image__slider">
             <img src="img/gift_packs/urban_pack.webp" alt="urban pack">

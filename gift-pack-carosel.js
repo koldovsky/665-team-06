@@ -1,28 +1,31 @@
+/** 
 (function() {
 
     const giftCarosel = [
-            `<div class="floral_pack">
-                <img src="img/gift_packs/Floral_pack.webp" alt="floral pack">
+            `<div class="slide_pack">
+            <div class="img-pack">
+                <img class="img-pack" src="img/gift_packs/Floral_pack.webp" alt="floral pack">
+                </div>
                 <h2 class="button_pack">The Big Floral Pack</h2>
             </div>`,
-            `<div class="autumn_pack">
-                <img src="img/gift_packs/autumn_pack.webp" alt="autumn pack">
+            `<div class="slide_pack">
+                <img class="img-pack" src="img/gift_packs/autumn_pack.webp" alt="autumn pack">
                 <h2 class="button_pack">The Autumn Lanscape Pack</h2>
             </div>`,
-            `<div class="urban_pack">
-                <img src="img/gift_packs/urban_pack.webp" alt="urban pack">
+            `<div class="slide_pack">
+                <img class="img-pack" src="img/gift_packs/urban_pack.webp" alt="urban pack">
                 <h2 class="button_pack">The Urban View Pack</h2>
             </div>`,
-            `<div class="vintage_pack">
-                <img src="img/gift_packs/vintage_pack.webp" alt="vintage pack">
+            `<div class="slide_pack">
+                <img class="img-pack" src="img/gift_packs/vintage_pack.webp" alt="vintage pack">
                 <h2 class="button_pack">The Big Vintage Pack</h2>
             </div>`,
-            `<div class="summer_pack">
-                <img src="img/gift_packs/summer_pack.webp" alt="summer_pack_foto">
+            `<div class="slide_pack">
+                <img class="img-pack" src="img/gift_packs/summer_pack.webp" alt="summer_pack_foto">
                 <h2 class="button_pack">The Summer Village Pack</h2>
             </div>`,
-            `<div class="exotick_pack">
-                <img src="img/gift_packs/exotick_pack.webp" alt="exotick pack">
+            `<div class="slide_pack">
+                <img class="img-pack" src="img/gift_packs/exotick_pack.webp" alt="exotick pack">
                 <h2 class="button_pack">Exotic Leather Pack</h2>
             </div>`
         ];
