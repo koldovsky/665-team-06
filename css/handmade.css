@@ -45,6 +45,23 @@ h3.handmade__mail_h3 {
   object-fit: cover;
   object-position: 50% 27.189%; */
 }
+.handmade__products-carousel {
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  margin-bottom: 25px;
+  align-items: center;
+}
+.products__carousel-forward {
+  width: 40px;
+  height: 40px;
+  margin-right: 46px;
+}
+
+.products__carousel-back {
+  width: 40px;
+  height: 40px;
+  margin-left: 46px;
+}
 
 @media (min-width: 769px) {
   .handmade__products_all {
