@@ -1,28 +1,28 @@
 (function () {
     const slides = [
         `<div class="header__header-bottom__image__slider">
-            <img src="img/header/notebook-header.png" alt="notebook header">
+            <img src="img/header/slider/bag-on-the-map.png" alt="bag on the map">
         </div>`,
         `<div class="header__header-bottom__image__slider">
-            <img src="img/bloc_handmade/open_bag.png" alt="open bag">
+            <img src="img/header/slider/hand-with-leather-bag.png" alt="hand with leather bag">
         </div>`,
         `<div class="header__header-bottom__image__slider">
-            <img src="img/gift_packs/urban_pack.webp" alt="urban pack">
+            <img src="img/header/slider/leather-case-on-table.png" alt="leather case on table">
         </div>`,
         `<div class="header__header-bottom__image__slider">
-            <img src="img/collection/wallets-collectins.webp" alt="walets collection">
+            <img src="img/header/slider/leather-folder.png" alt="leather folder">
         </div>`,
         `<div class="header__header-bottom__image__slider">
-            <img src="img/gift_packs/vintage_pack.webp" alt="vintage pack">
+            <img src="img/header/slider/man-with-leather-bag.png" alt="man with leather bag">
         </div>`,
         `<div class="header__header-bottom__image__slider">
-            <img src="img/collection/cases-collections.webp" alt="cases collections">
+            <img src="img/header/slider/produce-leather-crafties.png" alt="producing leather crafties">
         </div>`,
         `<div class="header__header-bottom__image__slider">
-            <img src="img/gift_packs/summer_pack.webp" alt="summer_pack_foto">
+            <img src="img/header/slider/wallet-and-tools.png" alt="wallet and tools">
         </div>`,
         `<div class="header__header-bottom__image__slider">
-            <img src="img/collection/holders-collections.webp" alt="holders collections">
+            <img src="img/header/slider/leather-wallet-on-sheet.png" alt="wallet on sheet">
         </div>`
     ];
 
@@ -36,6 +36,6 @@
         showCurrenSlide();
     }
     showCurrenSlide();
-    setInterval(showNextSlide, 3000);
+    setInterval(showNextSlide, 5000);
 
 })();
