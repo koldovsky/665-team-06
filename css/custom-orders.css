@@ -5,9 +5,9 @@
     .overblock {
         background-image: url("../../img/custom-orders/stylish-man.jpg");
         background-size:cover;
-        display: flex;
+        /* display: flex; */
         flex-wrap: wrap;
-        flex-direction:row;
+        /* flex-direction:row; */
         text-align: left;
         height: 655px;
         width: 100%;
@@ -17,30 +17,38 @@
     .overblock__header-text {
         color: #212020;
         font-family: var(--font-saira);
-        font-size: 38px;
+        /* font-size: 38px;
         line-height: 41.8px;
         font-weight: 200;
         letter-spacing: -1.14px;
         padding-left:  50px;
         padding-top:20px;
-        text-align:left;
+        */
+        text-align:justify;
     
     }
-    
+    /* 
+    span {
+        width: 272px;
+
+    }
+
+
     .overblock__main-text {
         font-size: 15px;
         color: var(--text-color-light-gray);
-        font-family: var(--font-merriweather);
-         width: 272px;
+        
+         
          height: inherit;
-        margin-left: 30px;
+        padding-left: 30px;
+        font-family: var(--font-saira);
     }
-    
+
     .overblock__lower-button {
     padding: 70px ;
     margin: auto;
     }
-    
+     */
     .underblock {
         height: auto;
         display:grid;
@@ -53,16 +61,18 @@
         background-color: rgb(110, 109, 109,0.9);
     }
     
-    .underblock-text {
+    .underblock__main-text {
         font-family: var(--font-saira);
         text-align:left;
         margin-left: 50px;
         margin-right: 50px;
         font-size: 34px;
         font-weight: 400;
-    
     }
-    
+    .underblock__lower{
+        display: flex;
+        justify-content: center;
+    }
     .underblock-button {
         padding: 70px ;
        white-space:nowrap;
