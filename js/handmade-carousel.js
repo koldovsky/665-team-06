@@ -27,8 +27,18 @@
                     currentSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
                     showCurrentSlide();
           }
+          function showPevSlide() {
+                    currentSlideIdx = currentSlideIdx - 1 <0 ? slides.length - 1 : currentSlideIdx - 1;
+                    showCurrentSlide();
+          }
 
 
           showCurrentSlide();
+          document.querySelector('.products__carousel-forward')
+                    .addEventListener('click', showNextSlide);
+          
+          document.querySelector('.products__carousel-back')
+                    .addEventListener('click', showPevSlide);
+          
           setInterval(showNextSlide, 2000);
 })();
