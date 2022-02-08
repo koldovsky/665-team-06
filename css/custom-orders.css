@@ -1,57 +1,70 @@
-.overblock {
-    background-image: url("../../img/custom-orders/stylish-man.jpg");
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    text-align: left;
-    height: 643.8px;
-    width: 100%;
-    position: relative;
-}
-
-.overblock__header-text {
-    color: #212020;
-    vertical-align: baseline;
-    font-family: var(--font-saira);
-    font-size: 38px;
-    line-height: 41.8px;
-    font-weight: 200;
-    letter-spacing: -1.14px;
-
-}
-
-.overblock__main-text {
-    font-size: 15px;
-    color: var(--text-color-light-gray);
-    font-family: var(--font-merriweather);
-}
-
-.overblock__lower-button {
-    background-color:#e04141;
-
-}
-
-.underblock {
-    height: 504.8px;
-    display: block;
-    width: 100%;
-    background-attachment: fixed;
-    color: #fff;
-    position: relative;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    background-image: url("../../img/custom-orders/table.webp");
-    background-color: rgba(10, 10, 10, 0.5);
-}
-
-.underblock-text {
-    text-align:left;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 34px;
-    font-weight: 400;
-}
-
-.underblock-button {
-    background-color:#e04141;
-}
+.custom-orders{
+    width:100%;
+    max-height: 1200px;
+    }
+    .overblock {
+        background-image: url("../../img/custom-orders/stylish-man.jpg");
+        background-size:cover;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        text-align: left;
+        height: 655px;
+        width: 100%;
+        position: relative;
+    }
+    
+    .overblock__header-text {
+        color: #212020;
+        font-family: var(--font-saira);
+        font-size: 38px;
+        line-height: 41.8px;
+        font-weight: 200;
+        letter-spacing: -1.14px;
+        padding-left:  50px;
+        padding-top:20px;
+        text-align:left;
+    
+    }
+    
+    .overblock__main-text {
+        font-size: 15px;
+        color: var(--text-color-light-gray);
+        font-family: var(--font-merriweather);
+         width: 272px;
+         height: inherit;
+        margin-left: 30px;
+    }
+    
+    .overblock__lower-button {
+    padding: 70px ;
+    margin: auto;
+    }
+    
+    .underblock {
+        height: auto;
+        display:grid;
+        background-attachment: fixed;
+        color: #fff;
+        position: relative;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        background-image: url("../../img/custom-orders/table.jpg");
+        background-color: rgb(110, 109, 109,0.9);
+    }
+    
+    .underblock-text {
+        font-family: var(--font-saira);
+        text-align:left;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 34px;
+        font-weight: 400;
+    
+    }
+    
+    .underblock-button {
+        padding: 70px ;
+       white-space:nowrap;
+       margin: auto;
+    }
