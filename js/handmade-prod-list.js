@@ -26,7 +26,8 @@
                     for (const handmadeProd of handmadeProds) {
                               handmadeDrodsContainer.innerHTML += `
                                         <article class="handmade_product__img">
-                                                  <img class="handmade_product" src="${handmadeProd.imgHandmadeUrl}" alt="${handmadeProd.title}">
+                                                  <img class="handmade_product" src="${handmadeProd.imgHandmadeUrl}" 
+                                                  alt="${handmadeProd.title}">
                                         </article>
                               `;
                     }
