@@ -1,116 +1,96 @@
-div.header{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    min-width: 320px;
-}
-div.header__title{
-    justify-content: flex-start;
-    font-size: 34px;
-    text-decoration: none;
-    padding: 20px 24px 50px;
-    color: var(--text-color-black);
+.header {
+  box-sizing: border-box;
+  min-width: 320px;
 }
 
-h1 > a{
-    color: var(--text-color-black);
-    text-decoration: none;
-    font-family: var(--font-saira);
+.header .header__nav-menu {
+  background: var(--color-background-header);
+  display: none;
 }
-div.header__header-bottom__image__slider > img{
-    margin-bottom: 0;
-    width: 100%;
+.header__title {
+  justify-content: flex-start;
+  font-size: 34px;
+  text-decoration: none;
+  padding: 20px 24px 50px;
+  color: var(--text-color-black);
 }
-div.header__header-bottom__description{
-    display: flex;
-    flex-direction: column;
-    background-color: var(--color-background-header);
-    padding: 50px 24px 0;
-    margin-top: -10px;
-}
-div.header__header-bottom__description__notebooks{
-    font-size: 58px;
-    font-weight: 500;
-    color: var(--text-color-black);
-    font-family: var(--font-saira);
-}
-div.header__header-bottom__description__about{
-    font-size: 16px;
-    color: var(--text-color-black);
-    font-family: var(--font-merriweather);
-    font-weight: 400;
-    padding: 20px 0;
-}
-div.header__header-bottom__description__button{  
-    margin-bottom: 50px;
-}
-div.header__header-bottom__description__button > a{
-    font-size: 15.4px;
-    font-weight: 400;
-    text-decoration: none;   
-    color: var(--text-color-white);
-    font-family: var(--font-merriweather);
-    text-align: center;
-    padding: 10px 10px;
-    border-radius: 25px;
-    background-color: var(--text-color-red);
-}
-a:hover{
-    cursor: pointer;
+.header__header-bottom {
+  display: flex;
+  flex-direction: column;
 }
 
-@media (min-width: 990px) { 
-    div.header{
-    display: flex;
-    flex-direction: column;
-  }
+.header__header-bottom__image__slider > img {
+  margin-bottom: 0;
+  width: 100%;
+}
+.header__header-bottom__description {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-background-header);
+  padding: 50px 24px 0;
+  margin-top: -10px;
+}
+.header__header-bottom__description__notebooks {
+  font-size: 58px;
+  font-weight: 500;
+  color: var(--text-color-black);
+  font-family: var(--font-saira);
+}
+.header__header-bottom__description__about {
+  font-size: 16px;
+  color: var(--text-color-black);
+  font-family: var(--font-merriweather);
+  font-weight: 400;
+  padding: 20px 0;
+}
+.header__header-bottom__description__button {
+  margin-bottom: 50px;
+}
+.header__header-bottom__description__button > a {
+  font-size: 15.4px;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--text-color-white);
+  font-family: var(--font-merriweather);
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 25px;
+  background-color: var(--text-color-red);
+}
+a:hover {
+  cursor: pointer;
+}
 
-  div.header__title{
-    text-align: center;
-  }
-  div.header__header-navigation{
-    overflow: visible;
-    left: 0;
+@media (min-width: 990px) {
+  .header .header__nav-menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
- }
- div.header__header-navigation> nav > ul > li{
-   display: inline-block;
-   padding: 0.2rem;
- }
-
-  div.header__header-navigation> nav > ul > li > a{
-    text-decoration: none;
-    color: var(--text-color-black);
-    font-family: var(--font-merriweather);
-    font-size: 15px;
+    justify-content: left;
   }
-  
-  div.header__header-bottom{
+
+  .header__header-bottom {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 0;
     margin: 0;
-    width: 100%;  
+    width: 100%;
   }
 
-  div.header__header-bottom__image__slider{
+  .header__header-bottom__image__slider {
     object-fit: cover;
   }
 
-  div.header__header-bottom__description{
+  .header__header-bottom__description {
     margin: 0;
   }
-  div.header__header-bottom__description__notebooks{
+  .header__header-bottom__description__notebooks {
     padding-top: 0;
-}
-  div.header__header-bottom__description__about{
+  }
+  .header__header-bottom__description__about {
     padding: 0;
-}
-  div.header__header-bottom__description__button{  
+  }
+  .header__header-bottom__description__button {
     margin-bottom: 0;
+  }
 }

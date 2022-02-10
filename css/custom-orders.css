@@ -1,37 +1,35 @@
-.custom-orders{
-    width:100%;
-    max-height: 1200px;
-    }
-    .overblock {
-        background-image: url("../../img/custom-orders/stylish-man.jpg");
-        background-size:cover;
-        /* display: flex; */
-        flex-wrap: wrap;
-        /* flex-direction:row; */
-        text-align: left;
-        height: 655px;
-        width: 100%;
-        position: relative;
-    }
-    
-    .overblock__header-text {
-        color: #212020;
-        font-family: var(--font-saira);
-        /* font-size: 38px;
+.custom-orders {
+  width: 100%;
+  max-height: 1200px;
+}
+.overblock {
+  background-image: url("../../img/custom-orders/stylish-man.jpg");
+  background-size: cover;
+  /* display: flex; */
+  flex-wrap: wrap;
+  /* flex-direction:row; */
+  text-align: left;
+  height: 655px;
+  width: 100%;
+  position: relative;
+}
+
+.overblock__header-text {
+  color: #212020;
+  font-family: var(--font-saira);
+  /* font-size: 38px;
         line-height: 41.8px;
         font-weight: 200;
         letter-spacing: -1.14px;
         padding-left:  50px;
         padding-top:20px;
         */
-        text-align:justify;
-    
-    }
-    /* 
-    span {
-        width: 272px;
-
-    }
+  text-align: justify;
+}
+/*
+span {
+  width: 272px;
+}
 
 
     .overblock__main-text {
@@ -49,32 +47,32 @@
     margin: auto;
     }
      */
-    .underblock {
-        height: auto;
-        display:grid;
-        background-attachment: fixed;
-        color: #fff;
-        position: relative;
-        padding-top: 90px;
-        padding-bottom: 90px;
-        background-image: url("../../img/custom-orders/table.jpg");
-        background-color: rgb(110, 109, 109,0.9);
-    }
-    
-    .underblock__main-text {
-        font-family: var(--font-saira);
-        text-align:left;
-        margin-left: 50px;
-        margin-right: 50px;
-        font-size: 34px;
-        font-weight: 400;
-    }
-    .underblock__lower{
-        display: flex;
-        justify-content: center;
-    }
-    .underblock-button {
-        padding: 70px ;
-       white-space:nowrap;
-       margin: auto;
-    }
+.underblock {
+  height: auto;
+  display: grid;
+  background-attachment: fixed;
+  color: #fff;
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../img/custom-orders/table.jpg");
+  background-color: rgb(110, 109, 109, 0.9);
+}
+
+.underblock__main-text {
+  font-family: var(--font-saira);
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 34px;
+  font-weight: 400;
+}
+.underblock__lower {
+  display: flex;
+  justify-content: center;
+}
+.underblock-button {
+  padding: 70px;
+  white-space: nowrap;
+  margin: auto;
+}

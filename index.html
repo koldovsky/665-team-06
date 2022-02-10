@@ -24,18 +24,35 @@
         <!-- Yaroslav Y start -->
         <div class="header">
             <div class="header__title">
-                <h1><a href="#footer">Leather Crafties</a></h1>
+                <h1><a href="catalog,html">Leather Crafties</a></h1>
+            </div>
+            <div class="header__burger">
+                <input id="burger" type="checkbox" />
+                <label for="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <nav>
+                    <ul>
+                        <li><a href="#">Catalog</a></li>
+                        <li><a href="#">Gift packs</a></li>
+                        <li><a href="#">Custom orders</a></li>
+                        <li><a href="#">Our story</a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a class="text-danger" href="signin.html">Sign in</a></li>
+                    </ul>
+                </nav>
             </div>
 
-            <nav class="navbar navbar-expand-lg navbar-light" id="navbar-screen">
-                <button class=" navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                </button>
-                <div class="header__nav-logo"></div>
-                <label class="burger-icon" for="burger-checkbox">☰</label>
-                <input type="checkbox" id="burger-checkbox">
-                <div class="header__nav-menu">
+
+            <div class="header__nav-menu">
+                <nav class="navbar navbar-expand-lg navbar-light" id="navbar-screen">
+                    <button class=" navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    </button>
                     <div class="collapse navbar-collapse d-flex justify-content-center mb-3">
                         <ul class="navbar-nav mr-auto fw-bold fs-5">
                             <li class="nav-item dropdown">
@@ -68,9 +85,8 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-            </nav>
-
+                </nav>
+            </div>
             <div class="header__header-bottom">
                 <div class="header__header-bottom__image">
                     <div class="header__header-bottom__image__slider">
@@ -108,7 +124,7 @@
     <!-- Alexandr bloc end -->
 
     <!-- bobyliak 3 start -->
-<!--
+    <!--
     <section class="collection">
         <h2 class="collections_header">Collections</h2>
         <div class="collections_product">
@@ -152,15 +168,15 @@
     <!-- khromenko 4 block start -->
     <div class="custom-orders" id="custom-orders">
         <div class="overblock">
-          <div class="overblock__header">
-            <div class="overblock__header-text">
-                <h1>Custom Orders</h1>
+            <div class="overblock__header">
+                <div class="overblock__header-text">
+                    <h1>Custom Orders</h1>
+                </div>
             </div>
-          </div>
-        <div class="overblock__main">
-            <p class="overblock__main-text">
-                <span class="overblock__main-text-content">
-                    Although a quality leather product is a wonderful gift by itself, adding a touch of
+            <div class="overblock__main">
+                <p class="overblock__main-text">
+                    <span class="overblock__main-text-content">
+                        Although a quality leather product is a wonderful gift by itself, adding a touch of
                         customization
                         turns it into an even better one. Whether you are looking to provide your company with
                         elegant and
@@ -168,29 +184,31 @@
                         want to
                         treat your self to unique leather goods, our custom branding option is the perfect way to
                         go.
-                </span>
-            </p>
-        </div>
-        <div class="overblock__lower">
-            <div class="overblock__lower-button">
-            <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
-            <label class="btn btn-outline-danger" for="danger-outlined">Learn more</label> 
+                    </span>
+                </p>
             </div>
-        </div>
+            <div class="overblock__lower">
+                <div class="overblock__lower-button">
+                    <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined"
+                        autocomplete="off">
+                    <label class="btn btn-outline-danger" for="danger-outlined">Learn more</label>
+                </div>
+            </div>
         </div>
         <div class="underblock">
             <div class="underblock__main">
-            <div class="underblock__main-text">
-                 <h2>We can move your brand to the next level by equipping you with luxury merchandise</h2>
+                <div class="underblock__main-text">
+                    <h2>We can move your brand to the next level by equipping you with luxury merchandise</h2>
                 </div>
             </div>
             <div class="underblock__lower">
-                 <div class="underblock-button">
-             <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
-             <label class="btn btn-outline-danger" for="danger-outlined">Request a qoute</label>
+                <div class="underblock-button">
+                    <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined"
+                        autocomplete="off">
+                    <label class="btn btn-outline-danger" for="danger-outlined">Request a qoute</label>
+                </div>
             </div>
-            </div> 
-        </div> 
+        </div>
     </div>
 
 
@@ -334,7 +352,7 @@
     <script src="gift-pack-carosel.js"></script>
     <script src="js/handmade-prod-list.js"></script>
     <script src="js/handmade-carousel.js"></script>
-    
+
 
 </body>
 
