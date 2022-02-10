@@ -65,7 +65,7 @@ a:hover {
   .header .header__nav-menu {
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
   }
 
   .header__header-bottom {

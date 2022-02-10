@@ -94,6 +94,7 @@
 .header__burger input:checked ~ nav {
   height: 100%;
   transition-delay: 0s;
+  background: url(../img/footer/subscribe-form-background.png) fixed;
 }
 .header__burger input:checked ~ nav > ul > li {
   opacity: 1;
