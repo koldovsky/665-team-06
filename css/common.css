@@ -19,4 +19,7 @@
   --success-color: #2ecc71;
   --error-color: #e74c3c;
   --text-colr-blue: rgb(0, 0, 255);
+  --handmade-border-size: 0.5rem;
+  --handmade-size-line: calc(var(--handmade-border-size) * 4);
+  --handmade-color-errows: rgb(219, 15, 15);
 }
