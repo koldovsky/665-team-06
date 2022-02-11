@@ -1,0 +1,67 @@
+.slider {
+  font-size: 100%;
+  box-shadow: 0 4em 3em var(--color-background-header);
+  height: 15em;
+  left: 50%;
+  margin: -7.5em -12em;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 24em;
+}
+.slider input {
+  position: relative;
+  top: -1.5em;
+}
+.slider ul {
+  height: 15em;
+  position: relative;
+  width: 24em;
+  transform-style: preserve-3d;
+  transition: initial;
+  transform: initial;
+  -webkit-transform: perspective(1000);
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 1s;
+}
+.slider li {
+  left: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  transform-style: preserve-3d;
+  transform-origin: 0 0;
+  transform: initial;
+  -webkit-transform: translateZ(7.5em);
+  -webkit-transform-origin: 0 0;
+  -webkit-transform-style: preserve-3d;
+}
+.slider li:nth-child(2) {
+  transform: initial;
+  -webkit-transform: rotateX(-90deg) translateY(-7.5em) translateZ(15em);
+}
+.slider li:nth-child(3) {
+  transform: initial;
+  -webkit-transform: rotateX(-180deg) translateY(-15em) translateZ(7.5em);
+}
+.slider li:nth-child(4) {
+  transform: initial;
+  -webkit-transform: rotateX(-270deg) translateY(-7.5em);
+}
+.slider img {
+  height: 15em;
+  width: 24em;
+  vertical-align: top;
+}
+#slide2:checked ~ ul {
+  transform: initial;
+  -webkit-transform: perspective(1000) rotateX(90deg);
+}
+#slide3:checked ~ ul {
+  transform: initial;
+  -webkit-transform: perspective(1000) rotateX(180deg);
+}
+#slide4:checked ~ ul {
+  transform: initial;
+  -webkit-transform: perspective(1000) rotateX(270deg);
+}

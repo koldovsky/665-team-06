@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalog. Craft Handmade Shop Leather Working</title>
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/testburger.css">
+
 </head>
 
 <body>
@@ -35,6 +35,26 @@
             </nav>
         </div>
     </div>
+    <div class="slider">
+        <input type="radio" id="slide1" name="slide" checked>
+        <input type="radio" id="slide2" name="slide">
+        <input type="radio" id="slide3" name="slide">
+        <input type="radio" id="slide4" name="slide">
+        <ul>
+            <li>
+                <img src="img\header\slider\bag-on-the-map.png">
+            </li>
+            <li>
+                <img src="img\header\slider\hand-with-leather-bag.png">
+            </li>
+            <li>
+                <img src="img\header\slider\leather-case-on-table.png">
+            </li>
+            <li>
+                <img src="img\header\slider\wallet-and-tools.png">
+            </li>
+        </ul>
+    </div>​
 
 </body>
 
