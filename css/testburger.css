@@ -107,7 +107,7 @@
   padding-bottom: 15px;
 }
 
-@media (min-width: 990px) {
+@media (min-width: 900px) {
   .header__burger input,
   label {
     display: none;

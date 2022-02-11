@@ -34,6 +34,33 @@
                 </ul>
             </nav>
         </div>
+        <br>
+        <div>
+            <nav class="header__dropdown-menu">
+                <ul>
+                    <li><a href="#">Catalog</a>
+                        <ul>
+                            <li><a href="#">Bags</a></li>
+                            <li><a href="#">Cases</a></li>
+                            <li><a href="#">Folders</a></li>
+                            <li><a href="#">Wallets</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Gift oacks</a>
+                        <ul>
+                            <li><a href="#">Stylish</a></li>
+                            <li><a href="#">Right choise</a></li>
+                            <li><a href="#">Ideal for business</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Custom orders</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Why us</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a class="text-danger" href="#">Sighn in</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
     <div class="slider">
         <input type="radio" id="slide1" name="slide" checked>
