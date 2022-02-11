@@ -1,0 +1,39 @@
+[
+    {
+       "id":"1",
+       "title":"Handmade Leather Notebook",
+       "image":"img/bags/Handmade-Leather-Notebook.jpg",
+       "price":101.99
+    },
+    {
+       "id":"2",
+       "title":"Brown Leather Wallet",
+       "image":"img/bags/Brown-Leather-Wallet.jpg",
+       "price":92.99
+    },
+    {
+       "id":"3",
+       "title":"Brown Business Folder",
+       "image":"img/bags/Brown-Business-Folder.jpg",
+       "price":83.99
+    },
+    {
+       "id":"4",
+       "title":"Big Brown Leather Bag",
+       "image":"img/bags/Big-Brown-Leather-Bag.jpg",
+       "price":75.99
+    },
+    {
+        "id":"5",
+        "title":"Stylish Brown Briefcase",
+        "image":"img/bags/Stylish-Brown-Briefcase.jpg",
+        "price":80.99
+     },
+     {
+        "id":"6",
+        "title":"Three-Color Leather Purse",
+        "image":"img/bags/Three-Color-Leather-Purse.jpg",
+        "price":60.99
+     }
+ ]
+ 
