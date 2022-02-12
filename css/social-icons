@@ -1,0 +1,50 @@
+.socialw {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: auto;
+  height: 100%;
+}
+
+.social {
+  position: relative;
+  width: 37px;
+  height: 62px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.first {
+  margin-left: 0px;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation: fadeInDown 1s both 0.5s;
+  -moz-animation: fadeInDown 1s both 0.5s;
+  -o-animation: fadeInDown 1s both 0.5s;
+  animation: fadeInDown 1s both 0.5s;
+}
+
+.social img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: margin-top 250ms ease-in;
+  -moz-transition: margin-top 250ms ease-in;
+  -o-transition: margin-top 250ms ease-in;
+  transition: margin-top 250ms ease-in;
+}
+.social:hover img {
+  margin-top: -62px;
+}
