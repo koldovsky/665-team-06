@@ -56,13 +56,15 @@ display: flex;
 }
 
 .card_product {
-display: flex;
-flex-direction: column;
-align-content: stretch;
-align-items: center;
-background-color: white;
-margin: 20px;
-}
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    width: 27%;
+    min-width: 300px;
+    background-color: white;
+    margin: 20px;
+    }
 
 .prodList {
 display: flex;
