@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalog. Craft Handmade Shop Leather Working</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/modal.css">
 
 </head>
 
 <body>
     <div class="header">
         <div class="header__title">
-            <h1><a href="">Leather Crafties</a></h1>
+            <h1><a href="index.html">Leather Crafties</a></h1>
         </div>
         <div class="header__burger">
             <input id="burger" type="checkbox" />
@@ -62,26 +63,117 @@
             </nav>
         </div>
     </div>
-    <div class="slider">
-        <input type="radio" id="slide1" name="slide" checked>
-        <input type="radio" id="slide2" name="slide">
-        <input type="radio" id="slide3" name="slide">
-        <input type="radio" id="slide4" name="slide">
-        <ul>
-            <li>
-                <img src="img\header\slider\bag-on-the-map.png">
+    <div class="slider-box">
+        <ul class="slides">
+            <input type="radio" name="radio-btn" id="img-1" checked />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="img\header\slider\bag-on-the-map.png" />
+                </div>
+                <div class="nav">
+                    <label for="img-6" class="prev">&#x2039;</label>
+                    <label for="img-2" class="next">&#x203a;</label>
+                </div>
             </li>
-            <li>
-                <img src="img\header\slider\hand-with-leather-bag.png">
+
+            <input type="radio" name="radio-btn" id="img-2" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="img\header\slider\hand-with-leather-bag.png" />
+                </div>
+                <div class="nav">
+                    <label for="img-1" class="prev">&#x2039;</label>
+                    <label for="img-3" class="next">&#x203a;</label>
+                </div>
             </li>
-            <li>
-                <img src="img\header\slider\leather-case-on-table.png">
+
+            <input type="radio" name="radio-btn" id="img-3" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="img\header\slider\leather-case-on-table.png" />
+                </div>
+                <div class="nav">
+                    <label for="img-2" class="prev">&#x2039;</label>
+                    <label for="img-4" class="next">&#x203a;</label>
+                </div>
             </li>
-            <li>
-                <img src="img\header\slider\wallet-and-tools.png">
+
+            <input type="radio" name="radio-btn" id="img-4" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="img\header\slider\man-with-leather-bag.png" />
+                </div>
+                <div class="nav">
+                    <label for="img-3" class="prev">&#x2039;</label>
+                    <label for="img-5" class="next">&#x203a;</label>
+                </div>
+            </li>
+
+            <input type="radio" name="radio-btn" id="img-5" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="img\header\slider\produce-leather-crafties.png" />
+                </div>
+                <div class="nav">
+                    <label for="img-4" class="prev">&#x2039;</label>
+                    <label for="img-6" class="next">&#x203a;</label>
+                </div>
+            </li>
+
+            <input type="radio" name="radio-btn" id="img-6" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="img\header\slider\wallet-and-tools.png" />
+                </div>
+                <div class="nav">
+                    <label for="img-5" class="prev">&#x2039;</label>
+                    <label for="img-1" class="next">&#x203a;</label>
+                </div>
+            </li>
+
+            <li class="nav-dots">
+                <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                <label for="img-6" class="nav-dot" id="img-dot-6"></label>
             </li>
         </ul>
     </div>​
+
+    <div class="modal">
+        <input id="modal__trigger" type="checkbox" />
+        <label for="modal__trigger">Handmade Leather Crafties</label>
+        <div class="modal__overlay" role="dialog" aria-labelledby="modal__title" aria-describedby="modal_desc">
+            <div class="modal__wrap">
+                <div class="modal-trigger-position">
+                    <label for="modal__trigger">&#10006;</label>
+                    <h2 id="modal__title">Handmade leather Crafties</h2>
+                </div>
+                <div class="slider">
+                    <input type="radio" id="slide1" name="slide" checked>
+                    <input type="radio" id="slide2" name="slide">
+                    <input type="radio" id="slide3" name="slide">
+                    <input type="radio" id="slide4" name="slide">
+                    <ul>
+                        <li>
+                            <img src="img\header\slider\bag-on-the-map.png">
+                        </li>
+                        <li>
+                            <img src="img\header\slider\hand-with-leather-bag.png">
+                        </li>
+                        <li>
+                            <img src="img\header\slider\leather-case-on-table.png">
+                        </li>
+                        <li>
+                            <img src="img\header\slider\wallet-and-tools.png">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
