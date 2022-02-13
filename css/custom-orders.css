@@ -36,6 +36,11 @@
 .btn {
 	border-radius: 20px;
 	z-index: 1;
+	background-color:transparent;
+}
+.animate-button:hover{
+background-color:#dc3545;
+color: white;
 }
 
 @media (max-width: 340px) {

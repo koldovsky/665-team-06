@@ -17,13 +17,13 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/bag.css">
     <link rel="stylesheet" href="custom-orders.css">
-
+    <link rel="stylesheet" href="css/branding.css">
 </head>
 
 <body>
     <header>
         <!-- Yaroslav Y start -->
-        <div class="header">
+        <div class="header" id="header">
             <div class="header__title">
                 <h1><a href="catalog,html">Leather Crafties</a></h1>
             </div>
@@ -255,9 +255,11 @@
             </div>
             <div class="overblock__lower">
                 <div class="overblock__lower-button">
-                    <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined"
+
+               <input  type="radio" class="btn-check" name="options-outlined" id="danger-outlined"
                         autocomplete="off">
-                    <label class="btn btn-outline-danger" for="danger-outlined">Learn more</label>
+                    <a class="btn btn-info btn-outline-danger" href="branding.html" for="danger-outlined">Learn more</a>
+             
                 </div>
             </div>
         </div>
@@ -271,13 +273,9 @@
                 <div class="underblock__lower">
                     <div class="underblock-button">
                     
-<button type="button" style="background-color:transparent" class="btn btn-primary btn-outline-danger btn-primary-outline" 
-  data-bs-toggle="modal" data-bs-target="#requestQuoteModal" data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+<button type="button"  class="btn btn-primary btn-outline-danger btn-primary-outline" 
+  data-bs-toggle="modal" data-bs-target="#requestQuoteModal" data-bs-whatever="@getbootstrap">Request a qoute</button>
 
-
-                        <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined"
-                            autocomplete="off">
-                        <label class="btn btn-outline-danger" for="danger-outlined">Request a qoute</label>
                     </div>
                 </div>
             </div>
@@ -422,24 +420,24 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="requestQuoteModalLabel">New message</h5>
+              <h5 class="modal-title" id="requestQuoteModalLabel">Request a qoute</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <form>
                 <div class="mb-3">
-                  <label for="recipient-name" class="col-form-label">Recipient:</label>
-                  <input type="text" class="form-control" id="recipient-name">
+                  <label  for="recipient-name" class="col-form-label">Sender:</label>
+                  <input type="text" class="form-control" placeholder="Enter email or your phone" id="recipient-name">
                 </div>
                 <div class="mb-3">
                   <label for="message-text" class="col-form-label">Message:</label>
-                  <textarea class="form-control" id="message-text"></textarea>
+                  <textarea class="form-control"placeholder="Write your message to us" id="message-text"></textarea>
                 </div>
               </form>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Send message</button>
+              <button type="button"  class="btn animate-button btn-secondary btn-danger btn-secondary-outline" data-bs-dismiss="modal">Close</button>
+              <button type="button"  class="btn animate-button btn-primary btn-danger btn-primary-outline">Request</button>
             </div>
           </div>
         </div>

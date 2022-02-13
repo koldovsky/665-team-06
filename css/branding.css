@@ -1,0 +1,7 @@
+a.button-lower-custom-orders:active, /* активная/посещенная ссылка */
+a.button-lower-custom-orders:hover,  /* при наведении */
+a.button-lower-custom-orders {
+  text-decoration: none;
+  color: #666;
+  border-color: #dc3545;
+}
