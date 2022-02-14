@@ -1,6 +1,6 @@
-.gallery{
+.carouselX{
     height: 682px;
-   
+   background-color: #ebebeb;
 }
 .sliderX{
     max-width: 80%;
@@ -105,5 +105,15 @@
 a {
 text-decoration: none;
 color: white;
+}
+
+.gallery{
+    background-color: #ebebeb;
+    font-family: var(--font-saira);
+    font-size:55px ;
+    color: rgb(33, 32, 32);
+    letter-spacing: -1px;
+    text-align: center;
+    padding-top:54.5px;
 }
  
