@@ -17,13 +17,13 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/bag.css">
     <link rel="stylesheet" href="custom-orders.css">
-
+    <link rel="stylesheet" href="css/branding.css">
 </head>
 
 <body>
     <header>
         <!-- Yaroslav Y start -->
-        <div class="header">
+        <div class="header" id="header">
             <div class="header__title">
                 <h1><a href="index.html">Leather Crafties</a></h1>
             </div>
@@ -105,10 +105,8 @@
     <!-- AlexandrVoyat start -->
     <article class="mega_product">
         <div class="prodTitle">
-            <h4 class="clock"></h4>
-            <h1>Products</h1>
-            <h4 class="countdown"></h4>
-            <div class="cart-window">
+           <h1>Products</h1>
+           <div class="cart-window">
                 <span id="cart-badge" class="badge badge-light"></span>
                 <div class="cart_container_box">
                     <a class="nav-link openCartLink" href="#modal-cart" data-bs-toggle="modal">
@@ -241,7 +239,7 @@
         <div class="overblock">
             <div class="overblock__header">
                 <div class="overblock__header-text">
-                    <h1>Custom Orders</h1>
+                    <h1 style="font-size: 41px";>Custom Orders</h1>
                 </div>
             </div>
             <div class="overblock__main">
@@ -260,9 +258,11 @@
             </div>
             <div class="overblock__lower">
                 <div class="overblock__lower-button">
-                    <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined"
+
+               <input  type="radio" class="btn-check" name="options-outlined" id="danger-outlined"
                         autocomplete="off">
-                    <label class="btn btn-outline-danger" for="danger-outlined">Learn more</label>
+                    <a class="btn btn-info btn-outline-danger" href="branding.html" for="danger-outlined">Learn more</a>
+             
                 </div>
             </div>
         </div>
@@ -275,9 +275,10 @@
                 </div>
                 <div class="underblock__lower">
                     <div class="underblock-button">
-                        <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined"
-                            autocomplete="off">
-                        <label class="btn btn-outline-danger" for="danger-outlined">Request a qoute</label>
+                    
+<button type="button"  class="btn btn-primary btn-outline-danger btn-primary-outline" 
+  data-bs-toggle="modal" data-bs-target="#requestQuoteModal" data-bs-whatever="@getbootstrap">Request a qoute</button>
+
                     </div>
                 </div>
             </div>
@@ -418,6 +419,33 @@
             </div>
         </div>
     </footer>
+    <div class="modal fade" id="requestQuoteModal" tabindex="-1" aria-labelledby="requestQuoteModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="requestQuoteModalLabel">Request a qoute</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label  for="recipient-name" class="col-form-label">Sender:</label>
+                  <input type="text" class="form-control" placeholder="Enter email or your phone" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Message:</label>
+                  <textarea class="form-control"placeholder="Write your message to us" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button"  class="btn animate-button btn-secondary btn-danger btn-secondary-outline" data-bs-dismiss="modal">Close</button>
+              <button type="button"  class="btn animate-button btn-primary btn-danger btn-primary-outline">Request</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
     <!--Yaroslav Y end -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -441,10 +469,8 @@
     <script src="js/js/cart.js"></script>
     <script src="js/js/product-list.js"></script>
     <script src="js/js/index.js"></script>
-    <script src="js/js/clock.js"></script>
-    <script src="js/js/countdown.js"></script>
     <script src="js/js/cart-window.js"></script>
-
+    <script src="js/modal.js"></script>
 </body>
 
 
