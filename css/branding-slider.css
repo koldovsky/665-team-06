@@ -10,11 +10,11 @@
     margin-bottom: 15px;
     
 }
-.item-branding{
+.item{
     padding-top: 52px;
 }
 /* Картинка масштабируется по отношению к родительскому элементу */
-.sliderX .item-branding img {
+.sliderX .item img {
    /* заполняем картинкой поле с сохранением пропорций */
     object-fit: cover;
     width: 100%;
@@ -23,7 +23,7 @@
     box-shadow: none !important;
 }
 /* Кнопки вперед и назад */
-.sliderX .prev-branding, .sliderX .next-branding {
+.sliderX .prev, .sliderX .next {
     cursor: pointer;
     position: absolute;
     top: 0;
@@ -37,13 +37,13 @@
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
 }
-.sliderX .next-branding {
+.sliderX .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 /* Фон кнопок вперед и назад при наведении */
-.sliderX .prev-branding:hover,
-.sliderX .next-branding:hover {
+.sliderX .prev:hover,
+.sliderX .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 /* надпись */
@@ -79,7 +79,7 @@
     background-color: #aaa;
 }
 /* Анимация слайдов */
-.sliderX .item-branding {
+.sliderX .item {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
