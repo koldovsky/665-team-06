@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/bag.css">
     <link rel="stylesheet" href="custom-orders.css">
     <link rel="stylesheet" href="css/branding.css">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
@@ -25,7 +26,7 @@
         <!-- Yaroslav Y start -->
         <div class="header" id="header">
             <div class="header__title">
-                <h1><a href="catalog,html">Leather Crafties</a></h1>
+                <h1><a href="index.html">Leather Crafties</a></h1>
             </div>
             <div class="header__burger">
                 <input id="burger" type="checkbox" />
@@ -76,7 +77,7 @@
             <div class="header__header-bottom">
                 <div class="header__header-bottom__image">
                     <div class="header__header-bottom__image__slider">
-                        <img src="img/header/slider/leather-wallet-on-sheet.png" alt="wallet on sheet">
+                        <img src="img/header/leather-wallet-spread-width.png" alt="wallet on sheet">
                         <div class=header__header-bottom__image__slider__container></div>
                     </div>
                 </div>
@@ -85,11 +86,14 @@
                         <p>Notebook Bags Made to Last a Lifetime
                         </p>
                     </div>
-                    <div class="header__header-bottom__description__about">
-                        <p>
-                            Each of our products is made by hand from the finest leather
+                    <div class="header__header-bottom__description__about nerdy-pen">
+                        <p class="nerdy-pen__text">
+                            Each of our products is
+                            <span class="txt-rotate" data-period="2000"
+                                data-rotate='[ "made by hand", "perfect designed", "stylish", "comfortable", "made finest leather" ]'></span>
                         </p>
                     </div>
+
                     <div class="header__header-bottom__description__button">
                         <a href="catalog,html" accesskey="1" target="_blank">Choose
                             product</a>
@@ -102,8 +106,8 @@
     <!-- AlexandrVoyat start -->
     <article class="mega_product">
         <div class="prodTitle">
-           <h1>Products</h1>
-           <div class="cart-window">
+            <h1>Products</h1>
+            <div class="cart-window">
                 <span id="cart-badge" class="badge badge-light"></span>
                 <div class="cart_container_box">
                     <a class="nav-link openCartLink" href="#modal-cart" data-bs-toggle="modal">
@@ -236,7 +240,7 @@
         <div class="overblock">
             <div class="overblock__header">
                 <div class="overblock__header-text">
-                    <h1 style="font-size: 41px";>Custom Orders</h1>
+                    <h1 style="font-size: 41px" ;>Custom Orders</h1>
                 </div>
             </div>
             <div class="overblock__main">
@@ -256,10 +260,10 @@
             <div class="overblock__lower">
                 <div class="overblock__lower-button">
 
-               <input  type="radio" class="btn-check" name="options-outlined" id="danger-outlined"
+                    <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined"
                         autocomplete="off">
                     <a class="btn btn-info btn-outline-danger" href="branding.html" for="danger-outlined">Learn more</a>
-             
+
                 </div>
             </div>
         </div>
@@ -272,9 +276,10 @@
                 </div>
                 <div class="underblock__lower">
                     <div class="underblock-button">
-                    
-<button type="button"  class="btn btn-primary btn-outline-danger btn-primary-outline" 
-  data-bs-toggle="modal" data-bs-target="#requestQuoteModal" data-bs-whatever="@getbootstrap">Request a qoute</button>
+
+                        <button type="button" class="btn btn-primary btn-outline-danger btn-primary-outline"
+                            data-bs-toggle="modal" data-bs-target="#requestQuoteModal"
+                            data-bs-whatever="@getbootstrap">Request a qoute</button>
 
                     </div>
                 </div>
@@ -285,6 +290,27 @@
 
     <!-- khromenko 4 block end -->
     <!--Marta 5 block start -->
+    <div class="our-team">
+        <div class="our-team__header">
+          <h2 id="team">Our Team</h2>
+        </div>
+        <div class="our-team__tab-nav">
+          <div class="tab-nav management tab-nav-active" id="management">Management</div>
+          <div class="tab-nav design" id="design">Design</div>
+          <div class="tab-nav visual" id="visual">Visual Media</div>
+          <div class="tab-nav uidesign" id="uidesign">UI Design</div>    
+        </div>
+        <div class="our-team__cards">
+
+        </div>
+    </div>
+    <div class="quote">
+        <div class="quote__content">
+            <p> <q>The real test is not whether you avoid this failure, because you won't. It's whether you let it harden or shame you into inaction, or whether you learn from it; whether you choose to persevere.</q> <br>
+            <br>
+                Robert Louis Stevenson</p>
+        </div>
+    </div>
     <div class="advantages">
         <div class="advantages__img-backpack">
             <img src="img/leather-backpack.webp" alt="Leather backpack">
@@ -416,32 +442,37 @@
             </div>
         </div>
     </footer>
-    <div class="modal fade" id="requestQuoteModal" tabindex="-1" aria-labelledby="requestQuoteModalLabel" aria-hidden="true">
+    <div class="modal fade" id="requestQuoteModal" tabindex="-1" aria-labelledby="requestQuoteModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="requestQuoteModalLabel">Request a qoute</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="mb-3">
-                  <label  for="recipient-name" class="col-form-label">Sender:</label>
-                  <input type="text" class="form-control" placeholder="Enter email or your phone" id="recipient-name">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="requestQuoteModalLabel">Request a qoute</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="mb-3">
-                  <label for="message-text" class="col-form-label">Message:</label>
-                  <textarea class="form-control"placeholder="Write your message to us" id="message-text"></textarea>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Sender:</label>
+                            <input type="text" class="form-control" placeholder="Enter email or your phone"
+                                id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Message:</label>
+                            <textarea class="form-control" placeholder="Write your message to us"
+                                id="message-text"></textarea>
+                        </div>
+                    </form>
                 </div>
-              </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn animate-button btn-secondary btn-danger btn-secondary-outline"
+                        data-bs-dismiss="modal">Close</button>
+                    <button type="button"
+                        class="btn animate-button btn-primary btn-danger btn-primary-outline">Request</button>
+                </div>
             </div>
-            <div class="modal-footer">
-              <button type="button"  class="btn animate-button btn-secondary btn-danger btn-secondary-outline" data-bs-dismiss="modal">Close</button>
-              <button type="button"  class="btn animate-button btn-primary btn-danger btn-primary-outline">Request</button>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
 
     <!--Yaroslav Y end -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -450,8 +481,9 @@
     <script src="prodakt-list.js"></script>
     <script src="clock.js"></script>
     <script src="countdown.js"></script>
+    <script src="our-team.js"></script>
     <script src="carousel.js"></script>
-    <!--<script src="js\header-slider.js"></script>-->
+    <script src="js\text-typing.js"></script>
     <script src="gift-pack-carosel.js"></script>
     <script src="js/handmade-prod-list.js"></script>
     <script src="js/handmade-carousel.js"></script>

@@ -1,0 +1,23 @@
+.quote {
+    background-color: #212020;
+    width: 100%;
+}
+.quote__content {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    max-width:1000px;
+    margin: 0 auto;
+    padding: 10px;
+
+    
+}
+.quote__content p {
+    color: rgb(174, 180, 180);
+    border-left: 1px solid rgb(156, 153, 153);
+    padding: 15px;
+    line-height: 1.5;
+}
+.quote__content q {
+    color: rgb(248, 250, 250);
+}

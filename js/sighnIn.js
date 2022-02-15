@@ -1,86 +1,100 @@
-const form = document.getElementById('.form');
-const username = document.getElementById('.username');
-const email = document.getElementById('.email');
-const password = document.getElementById('.password');
-const password2 = document.getElementById('.password2');
+const div = document.createElement('div');
+const log = document.createElement('div');
+const reg = document.createElement('div');
+const loginForm = document.createElement('form');
+const registerForm = document.createElement('form');
 
 
-function showError(input, message) {
-    const formControl = input.parentElement;
-    formControl.className = 'form-control error';
-    const small = formControl.querySelector('.small');
-    small.innerText = message;
-}
+document.body.style.color = '#fff';
+document.body.style.textTransform = 'capitalize';
+document.body.style.backgroundImage = "url(img/header/slider/produce-leather-crafties.png)";
+document.body.style.backgroundSize = "120% 150%";
 
 
-function showSuccess(input) {
-    const formControl = input.parentElement;
-    formControl.className = 'form-control success';
-}
+div.style.background = "rgba(0,0,0,0.7)";
+div.style.width = '300px';
+div.style.margin = '50px auto';
+div.style.padding = '10px';
+div.style.borderRadius = '10px';
+
+log.style.width = "calc(50% - (5px * 2))";
+log.style.padding = "5px";
+log.style.textAlign = "center";
+log.style.display = 'inline-block';
+log.style.color = '#fff';
+log.style.cursor = 'pointer';
+log.id = 'login';
+log.innerHTML = 'login';
+
+reg.style.width = "calc(50% - (5px * 2))";
+reg.style.padding = "5px";
+reg.style.textAlign = "center";
+reg.style.display = 'inline-block';
+reg.style.color = '#888';
+reg.style.cursor = 'pointer';
+reg.id = 'register';
+reg.innerHTML = 'register';
 
 
-function checkEmail(input) {
-    const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    if (re.test(input.value.trim())) {
-        showSuccess(input);
-    } else {
-        showError(input, 'Email is not valid');
-    }
-}
+
+reg.onclick = function () {
+    this.style.color = '#fff';
+    log.style.color = '#888';
+    loginForm.style.display = 'none';
+    registerForm.style.display = 'block';
+};
 
 
-function checkRequired(inputArr) {
-    let isRequired = false;
-    inputArr.forEach(function (input) {
-        if (input.value.trim() === '') {
-            showError(input, `${getFieldName(input)} is required`);
-            isRequired = true;
-        } else {
-            showSuccess(input);
-        }
-    });
-
-    return isRequired;
-}
+log.onclick = function () {
+    this.style.color = '#fff';
+    reg.style.color = '#888';
+    loginForm.style.display = 'block';
+    registerForm.style.display = 'none';
+};
 
 
-function checkLength(input, min, max) {
-    if (input.value.length < min) {
-        showError(
-            input,
-            `${getFieldName(input)} must be at least ${min == 4} characters`
-        );
-    } else if (input.value.length > max) {
-        showError(
-            input,
-            `${getFieldName(input)} must be less than ${max == 10} characters`
-        );
-    } else {
-        showSuccess(input);
-    }
-}
+const inputStyles = "background:none;border-color:#888;border-width:0 0 1px 0;width:100%;color:#fff;padding:5px;margin:5px;";
+const btnStyles = "background:red;border:none;width:100%;color:#fff;padding:5px;margin:5px;";
+const forgetStyles = "color:#fff;";
+const startYears = 10;
+const endYears = 70;
+let i;
 
 
-function checkPasswordsMatch(input1, input2) {
-    if (input1.value !== input2.value) {
-        showError(input2, 'Passwords do not match');
-    }
-}
+loginForm.style.margin = '50px 20px 20px 20px';
+loginForm.id = 'loginForm';
 
 
-function getFieldName(input) {
-    return input.id.charAt(0).toUpperCase() + input.id.slice(1);
-}
+loginForm.innerHTML = "<label>username</label><br/>" +
+    "<input type='text' placeholder='type username' style='" + inputStyles + "' /><br/>" +
+    "<label>password</label><br/>" +
+    "<input type='password' placeholder='*************' style='" + inputStyles + "' /><br/>" +
+    "<input type='submit' value='Login' style='" + btnStyles + "' />" +
+    "<p><a style='" + forgetStyles + "' href='#'>forget password ?</a></p><br/>";
 
 
-form.addEventListener('submit', function (e) {
-    e.preventDefault();
+registerForm.style.margin = '50px 20px 20px 20px';
+registerForm.style.display = 'none';
+registerForm.id = 'registerForm';
 
-    if (checkRequired([username, email, password, password2])) {
-        checkLength(username, 3, 15);
-        checkLength(password, 6, 25);
-        checkEmail(email);
-        checkPasswordsMatch(password, password2);
-    }
 
-});
+registerForm.innerHTML = "<label>first name</label><br/>" +
+    "<input type='text' placeholder='first name' style='" + inputStyles + "' /><br/>" +
+    "<label>last name</label><br/>" +
+    "<input type='text' placeholder='last name' style='" + inputStyles + "' /><br/>" +
+    "<label>e-mail</label><br/>" +
+    "<input type='email' placeholder='your email' style='" + inputStyles + "' /><br/>" +
+    "<label>password</label><br/>" +
+    "<input type='password' placeholder='*************' style='" + inputStyles + "' /><br/>" +
+    "<label>confirm password</label><br/>" +
+    "<input type='password' placeholder='*************' style='" + inputStyles + "' /><br/>" +
+    "<input type='submit' value='Register' style='" + btnStyles + "' />";
+
+
+div.appendChild(log);
+div.appendChild(reg);
+div.appendChild(loginForm);
+div.appendChild(registerForm);
+
+
+document.body.appendChild(div);
