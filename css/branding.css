@@ -5,19 +5,16 @@ a.button-lower-custom-orders {
   color: #666;
   border-color: #dc3545;
 }
-.header{
- margin-top: 2%;
- margin-bottom: 2%;
-}
-.header-top{
+
+.header-branding-top{
   margin-top: 2% ;
   margin-bottom: 2%;
 text-align: center;
 font-family: var(--font-saira);
 }
-  a.nav-link:active, /* активная/посещенная ссылка */
-a.nav-link:hover,  /* при наведении */
-a.nav-link {
+  a.nav-link-branding:active, /* активная/посещенная ссылка */
+a.nav-link-branding:hover,  /* при наведении */
+a.nav-link-branding {
   text-decoration: none;
   color: #666;
 }
